@@ -1,0 +1,83 @@
+@prefix : <http://linked.data.gov.au/def/gpc/> .
+@prefix cs: <http://linked.data.gov.au/def/gpc> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+:01
+    a skos:Concept ;
+    skos:prefLabel ""@en ;
+    skos:definition ""@en ;
+    skos:scopeNote ""@en ;
+    skos:narrower ;
+
+
+9	Fuel and energy
+
+091	Fuel affairs and services
+
+0911	Gas
+
+Outlays on administration, regulation, planning, support, operation, etc. of gas affairs and services which concern natural gas, liquified petroleum gases and refinery gases.
+
+Includes outlays on:
+Price control; research; dissemination of information; measures designed to reduce consumption or increase production; and, support in the form of advances, grants or subsidies.
+
+Excludes outlays on:
+Transportation of gas classified to the appropriate subgroup of GPC 12.
+
+0919	Fuel affairs and services n.e.c.
+
+Outlays on administration, regulation, planning, support, operation, etc. of fuel affairs and services other than gas. Other fuel affairs and services include coal, petroleum, nuclear affairs and alternative fuels such as alcohol, wood and wood wastes.
+
+Includes outlays on:
+Price control; research; dissemination of information; measures designed to reduce consumption or increase production; and, support in the form of advances, grants or subsidies.
+
+Excludes outlays on:
+Transportation of fuel other than gas classified to the appropriate subgroup of GPC 12.
+
+Coal
+Outlays on administration, regulation, planning, support, operation, etc. of solid mineral fuel affairs and services which concern coal of all grades, lignite and peat irrespective of the method used in their extraction, as well as conversion of these fuels to other forms such as coke or gas.
+
+Petroleum
+Outlays on administration, regulation, planning, support, operation, etc. of petroleum affairs and services which concern oil from wells or other sources such as shale.
+
+Nuclear affairs
+Outlays on administration, regulation, planning, support, operation, etc. of nuclear affairs and services which cover extraction as well as processing of fissionable and fertile materials and manufacture of fuel elements.
+
+Excludes outlays on:
+Radioactive wastes classified to GPC 0739.
+
+092	Electricity and other energy
+
+0921	Aboriginal community electricity services
+
+Outlays on administration, provision, support, operation, etc. of aboriginal community electricity services.
+
+Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.
+
+0922	Other electricity
+
+Outlays on administration, regulation, planning, support, operation, etc. of electricity affairs and services which concern conventional sources of electricity such as thermal, nuclear or hydro supplies, and nonconventional sources such as electricity from wind or solar heat.
+
+Includes outlays on:
+Price control; research, dissemination of information; measures designed to reduce consumption or increase production; support in the form of advances, grants or subsidies; and, support for the construction of dams and other works mainly designed to provide electricity.
+
+Excludes outlays on:
+Electricity services to aboriginal communities which are classified to GPC 0921.
+
+0929	Other energy
+
+Outlays on administration, regulation, planning, support, operation, etc. of energy affairs and services other than electricity.This mainly concerns the production of heat in the form of steam, hot water or hot air such as solar heat not used for the generation of electricity.
+
+Includes outlays on:
+Price control; research; dissemination of information; measures designed to reduce consumption or increase production; and, support in the form of advances, grants or subsidies.
+
+099	Fuel and energy n.e.c.
+
+0990	Fuel and energy n.e.c.
+
+Outlays on administration, regulation, planning, support, operation, etc. of fuel and energy affairs and services that cannot be assigned to one of the two preceding groups of GPC 09.
+
+Includes outlays on:
+Measures designed to reduce consumption or increase production of both fuel and energy, for example, the National Energy Conservation Program.

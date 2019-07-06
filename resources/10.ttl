@@ -1,0 +1,84 @@
+@prefix : <http://linked.data.gov.au/def/gpc/> .
+@prefix cs: <http://linked.data.gov.au/def/gpc> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+:01
+    a skos:Concept ;
+    skos:prefLabel ""@en ;
+    skos:definition ""@en ;
+    skos:scopeNote ""@en ;
+    skos:narrower ;
+
+
+10	Agriculture, forestry, fishing and hunting
+
+101	Agriculture
+
+1010	Agriculture
+
+Outlays on administration, regulation, support, operation, etc. of agricultural affairs. Agriculture includes agricultural land management; agricultural water resources management; agricultural support schemes; agricultural research and extension services; and, other agricultural affairs.
+
+Agricultural land management
+Outlays on administration, regulation, planning, support, management, etc. of agricultural land in general.
+
+Includes outlays on:
+Grants, subsidies and other assistance for agricultural land clearing, reclamation and control of soil erosion; land settlement schemes such as grants, interest subsidies and other assistance for farm acquisition; programs of rural debt reconstruction, farm rehabilitation and retraining displaced farmers; and, provision of veterinary and pest control services.
+
+Excludes outlays on:
+Agricultural water resources; support for research and development into problems of land conservation, reclamation, expansion etc. and, price and income support schemes.
+
+Agricultural water resources management
+Outlays on administration, regulation, planning, support, management, etc. of agriculture water resources.
+
+Includes outlays on:
+Provision of land irrigation, rural drainage and flood mitigation systems; and, subsidies, grants and advances for such work.
+
+Agricultural support schemes
+Outlays on administration, regulation, support, etc. of agricultural affairs designed to stabilise or improve farm prices and farmers' incomes.
+
+Includes outlays on:
+Price support and marketing schemes for unprocessed agricultural products; schemes to encourage or restrict output of particular products; and, subsidies to induce farmers to purchase and employ fertilisers, improved seeds and so forth.
+
+Agricultural research and extension services
+Outlays on administration, regulation, support, operation, etc. of agricultural research and extension services.
+
+Includes research into:
+Land conservation, reclamation and expansion; problems of land reform and settlement; fertiliser use and other means of improving output; veterinary medicine and animal husbandry; and, eradication or control of pests, vermin, plant diseases and other destructive agents.
+
+Agricultural extension services mainly involve the dissemination of knowledge with the principal aim of increasing productivity, improving quality of products, conserving land and reducing labour or other costs.
+
+Other agricultural affairs
+Outlays on administration, regulation, support, operation, etc. of agricultural affairs not included above in GPC 1010.
+
+102	Forestry, fishing and hunting
+
+1020	Forestry, fishing and hunting
+
+Outlays on administration, regulation, preservation, exploitation and management, etc. of forestry, fishing and hunting.
+
+Forestry
+Outlays on administration, regulation, preservation, exploitation and management, etc. of timber resources.
+
+Includes outlays on:
+Efforts to conserve, extend or rationalise exploitation of forest resources; field management, operation or support of re-afforestation work; pest and disease control activities; forest fire fighting and fire prevention services; research into all aspects of forest management and
+exploitation; commercial forest operations; extension services; and, dissemination of information.
+
+Fishing
+Outlays on administration, regulation, preservation, exploitation and management, etc. of commercial fishing.Fishing covers freshwater, ocean and coastal fishing and fish farming.
+
+Includes outlays on:
+Fish hatcheries, stocking or culling activities; licensing of fishing; research into fish management and related problems of this industry; extension services; and, dissemination of information.
+
+Excludes outlays on:
+Sport fishing classified to GPC 0819.
+
+Hunting
+Outlays on administration, regulation, preservation, exploitation and management, etc. of hunting.Hunting covers the taking of wildlife and animal propagation, protection and preservation.
+
+Includes outlays on:
+Game preserves; licensing of hunting; research into wild animal management and related problems of this industry; extension services; and, dissemination of information.
+
+Excludes outlays on:
+Sport hunting classified to GPC 0819.

@@ -1,0 +1,181 @@
+@prefix : <http://linked.data.gov.au/def/gpc/> .
+@prefix cs: <http://linked.data.gov.au/def/gpc> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+:01
+    a skos:Concept ;
+    skos:prefLabel ""@en ;
+    skos:definition ""@en ;
+    skos:scopeNote ""@en ;
+    skos:narrower ;
+
+
+12	Transport and communications
+
+121	Road transport
+
+Outlays on administration, regulation, support, operation, etc. of road and highway construction affairs, road and highway maintenance affairs, both off and on street parking, and other road transport affairs and services.
+
+Includes outlays on:
+Departments, bureaux or program units planning, designing, constructing, extending and improving roads and highways and associated structures such as bridges, tunnels, traffic lights and bus terminals; supervising, licensing or regulating such work; research into road design, construction methods or materials relating to specific projects; dissemination of information on road construction affairs; departments, bureaux or program units that maintain roads and highways and associated structures such as bridges, tunnels, traffic lights and bus terminals, and supervising, licensing or regulating such work; research on specific maintenance related projects; parking attendants and inspectors; construction and operation of parking facilities; research into the design and efficiency of parking facilities; all road plant purchases; road safety; vehicle registration and driver licensing; vehicle safety inspection; size and load specifications; tariffs and passenger fares; granting of franchises and frequency of operations; subsidies, grants or advances to public trading enterprises and private sector system operators; and, general administration, planning, research, dissemination of information not directly related to construction, maintenance and parking.
+
+Excludes outlays on:
+Reimbursement of public trading enterprises and private sector bus operators for concessional fares offered to students classified to GPC 044; traffic control involving direct action by police classified to GPC 0311; street cleaning classified to GPC 0739; street lighting classified to GPC 0799; regulation and monitoring of pollution arising from motor vehicle operation classified to GPC 0739; grants, advances, subsidies, etc. to motor vehicle manufacturers classified to GPC 1120; and, integrated urban transit systems where separate road transport data are not available classified to GPC 1281.
+
+1211	Aboriginal community road transport services
+
+Outlays on administration, regulation, support, operation, etc. of road transport affairs and services in aboriginal communities.
+
+Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.
+
+1212	Road maintenance
+
+Outlays on servicing and operating the road system, road pavement and shoulder maintenance, and bridge maintenance and rehabilitation.
+
+Relates to National Roads Transport Commission (NRTC) expenditure reporting categories A, B and C.
+
+1213	Road rehabilitation
+
+Outlays on reinstating failed road pavements to existing standards to improve the ride quality without improving the design standard.
+
+Relates to NRTC expenditure reporting category D.
+
+1214	Road construction
+
+Outlays on improving the design standard of existing roadways and bridges, building new roadways and bridges, land acquisition, earthworks, and other extensions and improvements to road systems.
+
+Relates to NRTC expenditure reporting category F.
+
+1219	Road transport n.e.c.
+
+Outlays on safety and traffic improvements, and miscellaneous road transport activities.
+
+Relates to NRTC expenditure reporting categories E and G.
+
+122	Water transport
+
+Outlays on administration, planning, construction, regulation, operation, etc. of water transport facilities and inland, coastal and ocean passenger and freight water transport affairs and services.
+
+Includes outlays on:
+Harbour facilities and navigation aids, canals, channels, dockyards, breakwaters, piers, wharves and terminals and advances, grants and subsidies for such work; and, research into the design, construction, etc. of water transport facilities.
+
+Also includes outlays on:
+Registration, licensing and inspection of vessels and crews, safety of passengers or goods, granting of franchises, tariffs and passenger fares, operation of navigational aids, pilots and tugs; subsidies, grants or advances to public trading enterprises and private sector systems operations; and, research and dissemination of information on water transport affairs and services.
+
+Excludes outlays on:
+Control of water traffic involving direct action by police classified to GPC 03; customs authorities classified to GPC 0190; grants, advances, subsidies, etc. to shipbuilders classified to GPC 1120; and, integrated urban transit systems where separate water transport data are not available classified to GPC 1281.
+
+Urban areas in each state include the capital city and the commuter population areas for the capital city. Non-urban areas in each state are residual to the urban areas. Data on transport services are sourced from the financial statements of transport authorities which usually specialise in providing either wholly/predominantly urban or wholly/predominantly non-urban services. Depending on the areas serviced by these authorities, some overlap between the urban/non-urban distinction may be unavoidable.
+
+1221	Aboriginal community water transport services
+
+Outlays on administration, planning, construction, regulation, operation, etc. of water transport facilities, affairs and services in Aboriginal communities.
+
+Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.
+
+1222	Urban water transport services
+
+Outlays on administration, planning, construction, regulation, operation, etc. of passenger and freight water transport facilities, affairs and services in urban areas.
+
+1223	Non-urban water transport services
+
+Outlays on administration, planning, construction, regulation, operation, etc. of passenger and freight water transport facilities, affairs and services in non-urban areas.
+
+123	Rail transport
+
+Outlays on administration, planning, construction, regulation, operation, etc. of rail transport facilities and long-haul, inter-urban and urban rapid transit railway affairs and services.
+
+Includes outlays on:
+Planning, designing, constructing, extending and improving railways and associated structures such as terminals, tunnels, bridges, etc.; and, research into the design, construction, etc. of rail transport facilities.
+
+Also includes outlays on:
+Tariff and passenger fares, passenger safety and frequency of service; subsidies, grants or advances to public trading enterprises and private sector system operators; and, research and dissemination of information on rail transport affairs and services.
+
+Excludes outlays on:
+Integrated urban transit systems where separate rail transport data are not available classified to GPC 1281; and, grants, advances and subsidies to rolling stock manufacturers classified to GPC 1120.
+
+Urban areas in each state include the capital city and the commuter population areas for the capital city. Non-urban areas in each state are residual to the urban areas. Data on transport services are sourced from the financial statements of transport authorities which usually specialise in providing either wholly/predominantly urban or wholly/predominantly non-urban services. Depending on the areas serviced by these authorities, some overlap between the urban/non-urban distinction may be unavoidable.
+
+1231	Urban rail transport services
+
+Outlays on administration, planning, construction, regulation, operation, etc. of urban passenger and freight rail transport facilities,affairs and services.
+
+1232	Non-urban rail transport freight services
+
+Outlays on administration, planning, construction, regulation, operation, etc. of non-urban rail transport freight facilities, affairs and services.
+
+1233	Non-urban rail transport passenger services
+
+Outlays on administration, planning, construction, regulation, operation, etc. of non-urban rail transport passenger facilities, affairs and services.
+
+124	Air transport
+
+Outlays on administration, construction, planning, support, operations, etc. of air transport facilities, air traffic control, passenger and freight services and controls on aircraft operation.
+
+Includes outlays on:
+Planning, designing, constructing, extending or improving airports, runways, terminals, hangars, air navigation aids and the supervision, licensing and regulating of such work; and, research into the design, construction, etc. of air transport facilities.
+
+Also includes outlays on:
+Tariff and passenger fares, passenger safety, registration, licensing and inspection of aircraft, pilots and crews including ground crews and allocation of routes; subsidies, grants or advances to public trading enterprises and private sector system operators; and, research and dissemination of information on air transport affairs and services.
+
+Excludes outlays on:
+Establishment and regulation of pollution standards classified to GPC 0739; and, grants, advances and subsidies to aircraft manufacturers classified to GPC 1120.
+
+1241	Aboriginal community air transport services
+
+Outlays on administration, construction, planning, support, operations, etc. of air transport facilities and services in aboriginal communities.
+
+Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.
+
+1249	Other air transport services
+
+Outlays on administration, construction, planning, support, operations, etc. of air transport facilities, air traffic control, passenger and freight services and controls on aircraft operation.
+
+Excludes outlays on:
+Aboriginal community air transport services classified to GPC 1241.
+
+125	Pipelines
+
+1250	Pipelines
+
+Outlays on administration, construction, operation, etc. of pipelines.
+
+Includes outlays on:
+Designing, constructing, extending, improving, and maintaining pipelines and associated structures such as pumping stations, used for the transportation of petroleum, natural gas, etc.; and, supervising, licensing or regulating such work.
+
+Also includes outlays on:
+Registration, licensing and inspection of equipment, safety standards, operator skills and training, granting of franchises and tariffs; subsidies, grants or advances to public trading enterprises and private sector system operators; provision of equipment; and, research and provision of information on pipeline transport affairs services.
+
+128	Other transport
+
+1281	Multi-mode urban transit systems
+
+Outlays on administration, provision, support, regulation, operation, etc. of public transport systems where road, rail and ferry transport outlays cannot be separated.
+
+Includes outlays on:
+Registration, licensing and inspection of equipment; safety standards and tariffs; subsidies, grants or advances to public trading enterprises; and, research and dissemination of information on multi-mode urban transit systems.
+
+Excludes outlays that can be classified to a specific transport mode.
+
+Urban areas in each state include the capital city and the commuter population areas for the capital city. Non-urban areas in each state are residual to the urban areas. Data on transport services are sourced from the financial statements of transport authorities which usually specialise in providing either wholly/predominantly urban or wholly/predominantly non-urban services. Depending on the areas serviced by these authorities, some overlap between the urban/non-urban distinction may be unavoidable.
+
+1289	Other transport n.e.c.
+
+Outlays on administration, regulation, support, operation, etc. of transport affairs and services that cannot be assigned to one of the preceding sub-groups in major group GPC 12.
+
+129	Communications
+
+1290	Communications
+
+Outlays on administration, provision, construction, regulation, operation, etc. of communication affairs and services including postal, telephone, telegraph, cable and wireless communication systems and communication satellites.
+
+Includes outlays on:
+Planning, designing, constructing, extending and improving communication systems; development and administration of regulations; assignment of frequencies; specification of markets to be served; and, setting of tariffs.
+
+Also includes outlays on:
+Research into communication equipment and technology; information dissemination services; and, grants, advances and subsidies for communication equipment and services.
+
+Excludes outlays on:
+Radio and television broadcasting systems classified to GPC 0830; and, water or air navigation aids classified to GPC 122 and GPC 124 respectively.

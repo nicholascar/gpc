@@ -7,8 +7,9 @@ This repository contains the following:
 
 * [gpc.ttl](gpc.ttl) - the GPC, in SKOS, in [RDF turtle](https://www.w3.org/TR/turtle/) format
 * [README.me](README.me) - this file
-* [resources/](resources/) - a folder containing resource/reference material, such as the HTML of the GPC webpage and scripts to process it, used to generate this SKOS implementation of the GPC
+* [resources/](resources/) - a folder containing resource/reference material, such as the HTML code of the GPC webpage and interim files showing data processed from it used to generate this SKOS implementation of the GPC
 * [LICENSE](LICENSE) - Creative Commons v4.0 license deed - for this repository's contents
+
 
 ## Rights & License
 The content of this repository is licensed for use under the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by/4.0/). See the [license deed](LICENSE) all details.

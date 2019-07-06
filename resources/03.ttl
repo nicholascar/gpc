@@ -1,0 +1,80 @@
+@prefix : <http://linked.data.gov.au/def/gpc/> .
+@prefix cs: <http://linked.data.gov.au/def/gpc> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+:03
+    a skos:Concept ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Public order and safety"@en ;
+    skos:narrower :031 , :032 , :033 , :039 .
+
+:031
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Police and fire protection services"@en ;
+    skos:narrower :0311 .
+
+:0311
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Police services"@en ;
+    skos:definition """<p>Outlays on all activities concerned with the prevention of illegal activities and apprehension of criminals.</p>
+<p>Includes outlays on:<br />
+Traffic control by police; alien registration; internal security forces; police colleges; police training; and, police laboratories.</p>"""^^rdf:HTML .
+
+:0312
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fire protection services"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Contributions to volunteer fire brigades; operations of fire brigade boards; and, roadside clearing operations.</p>
+<p>Excludes outlays on:</p>
+Forest fire protection services classified to GPC 1020.</p>"""^^rdf:HTML .
+
+:032
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Law courts and legal services"@en ;
+    skos:narrower :0321 .
+
+:0320
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Law courts and legal services"@en ;
+    skos:definition """<p>Outlays on legal representation and advice on behalf of the government and others.</p>
+<p>Includes outlays on:<br />
+Costs of crown prosecutions; trusteeship services and law reform; registration of legal titles to property; and, registration of births, deaths and marriages.</p>
+<p>Excludes outlays on:<br />
+Industrial law classified to GPC 1339; and, tribunals and appeals boards that can be classified to specific purpose categories.</p>"""^^rdf:HTML .
+
+:033
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Prisons and corrective services"@en ;
+    skos:narrower :0331 .
+
+:0320
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Prisons and other corrective services"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Places of secure detention for convicted persons, alleged offenders and non-institutional corrective services; prisons, prison farms, remand centres and asylums for the criminally insane; places of secure detention for juveniles; child offenders and children on remand for alleged offences; youth training centres; juvenile corrective institutions; and, community-based correction activities, where the offender or alleged offender is at large in the community but is required to adhere to certain rehabilitation sessions, such as parole and probation services, community service orders and attendance centres.</p>
+<p>Excludes outlays on:<br />
+Residential child care institutions that are not places of secure detention, such as juvenile hostels, family group homes, campus homes, etc. classified to GPC 0621.</p>"""^^rdf:HTML .
+
+:039
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other public order and safety"@en ;
+    skos:narrower :0391 .
+
+:0390
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other public order and safety"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Programs relating to the control of animals such as dog registration, pounds, control of stray cattle and associated veterinary costs; beach inspectors; life saving and beach patrols; maintenance of state emergency services, such as through local government contributions, and their operations that cannot be allocated to disaster relief classified to GPC 0629 or GPC 1430; control of explosives; human rights organisations; and, community relations.</p>
+<p>Excludes outlays on:<br />
+Road safety classified to GPC 1219.</p>"""^^rdf:HTML .

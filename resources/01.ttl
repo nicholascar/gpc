@@ -1,0 +1,97 @@
+@prefix : <http://linked.data.gov.au/def/gpc/> .
+@prefix cs: <http://linked.data.gov.au/def/gpc> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+:01
+    a skos:Concept ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "General public services"@en ;
+    skos:narrower :011 , :019 .
+
+:011
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Government superannuation benefits"@en ;
+    skos:narrower :0110 .
+
+:0110
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Government superannuation benefits"@en ;
+    skos:definition """<p>Under cash GFS, all government superannuation transactions were classified to the one category in general public services. However, under an accruals GFS, superannuation transactions should be classified to specific GPCs if the data is available. Otherwise this subgroup may be used.</p>
+<p>Includes outlays on:<br />
+Payments under Commonwealth, State and Local government superannuation schemes to government employees in general public services.</p>
+<p>Excludes outlays on:<br />
+Payments under Commonwealth, State and Local government superannuation schemes to government employees not in general public services that can be allocated to specific GPCs.</p>"""^^rdf:HTML .
+
+
+:019
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other general public services"@en ;
+    skos:narrower :0190 .
+
+:0190
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other general public services"@en ;
+    skos:definition "Outlays on administration, support, regulation, research, operation, etc. of general public services. General public services include legislative and executive affairs, financial and fiscal affairs, external affairs, foreign economic aid, general research and general services."@en ;
+    skos:narrower :01901 , :01902 , :01903 , :01904 , :01905 , :01906 .
+
+
+:01901
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Legislative and executive affairs"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Parliaments and councils; governor-general, governor and mayoral offices; conduct of elections and maintenance of registers of voters; legislative drafting offices; libraries and other reference services that serve the legislative bodies; permanent and ad hoc commissions and committees created by, or acting on behalf of, the legislature; and, ministerial departments, local government offices and inter-departmental committees not concerned with a specific function.</p>
+<p>Excludes outlays on:<br />
+Ministerial departments, local government offices and inter-departmental committees concerned with a specific function.</p>"""^^rdf:HTML .
+
+:01902
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Financial and fiscal affairs"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Collection of taxes, including customs duties; management of public funds and public debt; departmental monitoring and control of monetary and fiscal policy; and, formulation, review, etc. of government budgets.</p>
+<p>Exclude outlays on:<br />
+Collection of licences, fees and fines which are associated with a specific function; and, underwriting and floating of government loans and interest payments classified to GPC 1410.</p>"""^^rdf:HTML .
+
+:01903
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "External affairs"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Departments concerned with foreign affairs and diplomatic and consular missions stationed abroad or at offices of international organisations; information and cultural activities intended for distribution overseas; contributions to meet operating expenses of international organisations; support for research into foreign policy; and, issuing of passports and visas.</p>
+<p>Excludes outlays on:<br />
+Military aid to foreign countries and military units stationed abroad classified to GPC 0200; production of cultural material intended for overseas broadcasting classified to GPC 0830; and, foreign trade offices, international financial affairs and other foreign commercial or technical affairs classified to GPC 1390.</p>"""^^rdf:HTML .
+
+:01904
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Foreign economic aid"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Offices and other units administering non-military aid to developing countries; grants, advances, technical assistance and training programs for foreign nationals; foreign economic aid through international organisations; and, contributions in cash or in kind to economic development funds administered by international regional or other multinational organisations.</p>
+<p>Excludes outlays on:<br />
+Military aid classified to GPC 0200; and, aid to international peace-keeping operations classified to GPC 0200.</p>"""^^rdf:HTML .
+
+:01905
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "General research"@en ;
+    skos:definition """<p>Outlays on administration, support, operation, etc. of research directed towards the increase in scientific knowledge or discovery of new fields of investigation, not connected with a specific function.</p>
+<p>Includes outlays on:<br />
+Multi-disciplinary research, such as oceanography; and, single discipline research.</p>
+<p>Excludes outlays on:<br />
+Applied research which is undertaken with a specific purpose in mind, for example, applied research into plant diseases or other destructive agents classified to GPC 1010.</p>"""^^rdf:HTML .
+
+:01906
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "General services"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Overall economic and social planning and statistical services not connected with a specific function; offices, bureaux, or program units which formulate, co-ordinate and frequently monitor the implementation of overall economic and social policies programs; development and implementation of general personnel policies and procedures; centralised supply and purchasing services that cannot be split and allocated to specific functions; repairs and maintenance; central motor pools; maintenance of government archives not connected with libraries; and, administration of Indian Ocean and Pacific Ocean Territories and non-self governing territories where outlays are not elsewhere classified.</p>
+<p>Excludes outlays on:<br />
+Personnel and other general services connected with a specific function.</p>"""^^rdf:HTML .

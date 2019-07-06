@@ -1,0 +1,47 @@
+@prefix : <http://linked.data.gov.au/def/gpc/> .
+@prefix cs: <http://linked.data.gov.au/def/gpc> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+:02
+    a skos:Concept ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Defence"@en ;
+    skos:narrower :020 .
+
+:020
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Defence"@en ;
+    skos:narrower :0200 .
+
+:0200
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Defence"@en ;
+    skos:definition "Outlays on administration, supervision, operation and support of military and civil defence affairs, foreign military aid and defence research."@en ;
+    skos:narrower :02001 , :02002 , :02003 .
+
+:0200
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Military and civil defence affairs"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Retirement and pension plans for military personnel and their survivors under contributory schemes whether or not funded; payments under the Defence Forces Retirement and Death Benefits Scheme; land, sea, air and reservist combat personnel; engineering, transport, communications, intelligence, training and recruitment and other non-combatant personnel and associated services; provision of equipment, structures and supplies; base hospitals and military schools and colleges; dissemination of information; and, civil defence personnel and acquiring materials and equipment.</p>
+<p>Excludes outlays on:<br />
+Pensions and other benefits paid to ex-service personnel to compensate for invalidity and other permanent disability resulting from service in the defence forces, and to war widows and war orphans classified to GPC 0610; old age pensions, disability benefits, etc. paid through the general social security system to ex-military personnel, classified to GPC 0610; and, food, materials, equipment, etc. used for emergency peace-time disasters classified to GPC 0629 or GPC 1430.</p>"""^^rdf:HTML .
+
+:0200
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Foreign military aid"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Military aid missions accredited to foreign governments or attached to international military organisations; and, military aid grants and advances and contributions to international 	peace-keeping forces including assignment of manpower.</p>"""^^rdf:HTML .
+
+:0200
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Defence research"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Research and experimental development related to the armed forces and civil defence; development of new and improved equipment; improvements in tactics and strategies; and, other research and development related to defence.</p>"""^^rdf:HTML .

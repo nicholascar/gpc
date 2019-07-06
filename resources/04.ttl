@@ -1,0 +1,149 @@
+@prefix : <http://linked.data.gov.au/def/gpc/> .
+@prefix cs: <http://linked.data.gov.au/def/gpc> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+:04
+    a skos:Concept ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Education"@en ;
+    skos:narrower :041 , :042 , :043 , :044 , :049 .
+
+:041
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Primary and secondary education"@en ;
+    skos:narrower :0411 , 0412 , :0419.
+
+:0411
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Primary education"@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, operation, etc. of educational programs that provide a sound knowledge of reading, writing and simple mathematics and an elementary knowledge of other subjects for children from ages 5 to 7 until ages 10 to 12.</p>
+<p>Includes outlays on:<br />
+Special education programs integrated into mainstream primary education.</p>
+<p>Excludes outlays on:<br />
+Transportation services to students classified to GPC 044; and, school medical and dental programs classified to GPC 0550.</p>"""^^rdf:HTML .
+
+:0412
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Secondary education"@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, operation, etc. of educational programs that extend primary programs on a more subject-oriented pattern for a period of 4 to 6 years.Some vocational and technical training may occur particularly in the final years.</p>
+<p>Includes outlays on:<br />
+Out-of-school secondary education courses for adults and young people other than those offered by colleges of technical and further education; and, special education programs integrated into mainstream secondary education.</p>
+<p>Excludes outlays on:<br />
+Transportation services to students classified to GPC 044; and, school medical and dental programs classified to GPC 0550.</p>"""^^rdf:HTML .
+
+:0419
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Primary and secondary education n.e.c."@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, operation, etc. of primary and secondary educational programs that cannot be assigned to any of the preceding subgroups.</p>
+<p>Excludes outlays on:<br />
+Transportation services to students classified to GPC 044; and, school medical and dental programs classified to GPC 0550.</p>"""^^rdf:HTML .
+
+:042
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tertiary education"@en ;
+    skos:narrower :0421 , :0422 , 0429 .
+
+:0421
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "University education"@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, operation, etc. of educational programs leading to a university first degree, post-graduate degree or other higher qualifications.Entry generally requires matriculation at secondary level or equivalent.</p>
+<p>Excludes outlays on:<br />
+Transportation services to university students classified to GPC 044.</p>"""^^rdf:HTML .
+
+:0422
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Technical and further education"@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, operation, etc. of educational programs in music, fine arts and design; courses designed to meet specific requirements of industry and commerce; and, non-vocational courses offered by colleges of technical and further education. Entry may not require matriculation at secondary level or equivalent.</p>
+<p>Excludes outlays on:<br />
+Transportation services to technical and further education students classified to GPC 044; and, vocational training programs not provided by TAFE institutions classified to GPC 1331.</p>"""^^rdf:HTML .
+
+:0429
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tertiary education n.e.c."@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, operation, etc. of educational programs provided by tertiary institutions n.e.c. which normally require completion of high school or equivalent as a minimum standard of entry.</p>
+<p>Excludes outlays on:<br />
+Courses which are essentially non-vocational and associated with leisure time activities classified to GPC 0439 or GPC 0422; and, transportation services to students classified to GPC 044.</p>"""^^rdf:HTML .
+
+:043
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Preschool education and education not definable by level"@en ;
+    skos:narrower :0431 .
+
+:0431
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Preschool education"@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, operation, etc.of preschool education programs for children up to 5 years of age delivered in a school-type environment designed to bridge the gap between home and school atmosphere.</p>
+<p>Includes outlays on:<br />
+Preschools and kindergartens; and, any special education programs integrated into mainstream preschool education.</p>
+<p>Excludes outlays on:<br />
+Playcentres, creches, day-care centres, etc.(where the main function is not to prepare children for subsequent schooling but rather to provide services to assist working mothers, one parent families and other families in need) classified to GPC 0621; and, 'preschools' classified to GPC 0621.</p>"""^^rdf:HTML .
+
+:0432
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Special education"@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, operation, etc.of special education programs provided by special schools.</p>
+<p>Includes outlays on:<br />
+Education of blind, deaf and mute children, and children with other forms of physical handicap; slow learners; children with social or emotional problems; children in custody or on remand; and, children in hospital.</p>
+<p>Excludes outlays on:<br />
+Transportation services to students classified to GPC 044; school medical and dental programs classified to GPC 0550; special education programs integrated into mainstream primary education classified to GPC 0411; and, special education programs integrated into mainstream secondary education classified to GPC 0412.</p>"""^^rdf:HTML .
+
+
+:0439
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other education not definable by level"@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, operation, etc. of educational programs which are not definable by level.</p>
+<p>Includes outlays on:<br />
+Adult education courses which are essentially non-vocational and associated with leisure-time activities, other than those offered by colleges of technical and further education; migrant education programs; and, other educational programs not definable by education level.</p>"""^^rdf:HTML .
+
+
+:044
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Transportation of students"@en ;
+    skos:narrower :0441 , :0449 .
+
+:0441
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Transportation of non-urban school students"@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, etc. of transportation services to non-urban (rural) school students.
+
+<p>Includes outlays on:<br />
+Contract bus services; conveyance allowances to parents; and, reimbursement of private sector bus operators for concessional fares offered to non-urban school students.</p>
+<p>Urban areas in each state include the capital city and the commuter population areas for the capital city.Non-urban areas in each state are residual to the urban areas.Data on transport services are sourced from the financial statements of transport authorities which usually specialise in providing either wholly/predominantly urban or wholly/predominantly non-urban services.Depending on the areas serviced by these authorities, some overlap between the urban/non-urban distinction may be unavoidable.</p>"""^^rdf:HTML .
+
+:0449
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Transportation of other students"@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, etc. of transportation services to students other than non-urban school children.</p>
+<p>Includes outlays on:<br />
+Contract bus services; conveyance allowances to parents; and, reimbursement of public trading enterprises and private sector bus operators for concessional fares offered to these students.</p>
+<p>Excludes outlays on:<br />
+Transportation services to non-urban school children classified to GPC 0441.</p>"""^^rdf:HTML .
+
+:049
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Education n.e.c."@en ;
+    skos:narrower :0490 .
+
+:0411
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Education n.e.c."@en ;
+    skos:definition """<p>Outlays on education affairs and services that cannot be assigned to one of the four preceding groups of GPC 04.</p>"""^^rdf:HTML .

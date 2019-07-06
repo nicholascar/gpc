@@ -1,0 +1,50 @@
+@prefix : <http://linked.data.gov.au/def/gpc/> .
+@prefix cs: <http://linked.data.gov.au/def/gpc> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+:01
+    a skos:Concept ;
+    skos:prefLabel ""@en ;
+    skos:definition ""@en ;
+    skos:scopeNote ""@en ;
+    skos:narrower ;
+
+
+14	Other purposes
+
+141	Public debt transactions
+
+1410	Public debt transactions
+
+Outlays on underwriting and floating of government loans and interest payments, including interest on government securities or under special credit arrangements with other countries.
+
+Excludes outlays on:
+Administrative costs of public debt management classified to GPC 0190.
+
+142	General purpose inter-government transactions
+
+1420	General purpose inter-government transactions
+
+Grants, advances or other inter-government transactions that cannot be allocated to purpose.
+
+143	Natural disaster relief
+
+1430	Natural disaster relief
+
+Outlays on administration, planning, support, provision, etc.of programs concerned with the immediate relief of victims of drought, fires, floods, cyclones and other natural disasters, and with the initial restoration of community services and facilities.
+
+Includes outlays on:
+Food, materials, equipment, etc. used in connection with natural disasters.
+
+Excludes outlays on:
+Maintenance of state emergency services, such as through local government contributions, classified to GPC 0390; state emergency service operations that cannot be allocated to natural disaster relief classified to GPC 0390 or GPC 0629; relief of victims of man-made disasters classified to GPC 0629; reconstruction activities following man-made disasters classified to purpose; and, long term reconstruction and relief activities following natural disasters classified to purpose.
+
+149	Other purposes n.e.c.
+
+1490	Other purposes n.e.c.
+
+Outlays that cannot be assigned to one of the major groups GPC 01 to GPC 13 and the preceding sub-group of GPC 14.
+
+Includes transactions relating to plant and equipment which cannot be classified to specific purposes and residual items (such as the cost of works on private land, purchases of land and buildings, the rent of premises, works depots and engineering and employment overheads) that cannot be classified to purpose.

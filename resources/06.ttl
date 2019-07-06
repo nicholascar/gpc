@@ -1,0 +1,165 @@
+@prefix : <http://linked.data.gov.au/def/gpc/> .
+@prefix cs: <http://linked.data.gov.au/def/gpc> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+:06
+    a skos:Concept ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Social security and welfare"@en ;
+    skos:narrower :061 , :062 , :069 .
+
+:061
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Social security"@en ;
+    skos:definition "Social security services are defined as chiefly transfer payments (including payments in kind) to compensate for reduction or loss of income or inadequate earning capacity."@en ;
+    skos:narrower :0610 .
+
+:0610
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Social security"@en ;
+    skos:definition """<p>Outlays on administration, provision, support, operation, etc. of social security affairs, including administration costs that can be separated from the provision of welfare services. Social security includes sickness benefits;benefits to ex-service personnel and their dependents; permanent disability benefits; old age benefits; widow's, deserted wives, divorcees, and orphans benefits; unemployment benefits; sole parents benefits; and, other social security.</p>"""^^rdf:HTML ;
+    skos:narrower :06101 , :06102 , :06103 , :06104 , :06105 , :06106 , :06107 , :06108 .
+
+:06101
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sickness benefits"@en ;
+    skos:definition """<p>Pensions and other benefits paid to persons who are sick and thereby suffer loss of income due to work incapacity.</p>
+<p>Includes outlays on:<br />
+Sickness Benefits and miners phthisis compensation.</p>
+<p>Excludes outlays on:<br />
+Special Benefits; workers compensation payments classified to purpose; and, payments for health services classified to the appropriate subgroup of major group GPC 05.</p>"""^^rdf:HTML .
+
+:06102
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Benefits to ex-service personnel and their dependants"@en ;
+    skos:definition """<p>Pensions and other benefits paid to ex-service personnel to compensate for invalidity and other permanent disablement resulting from service in the defence forces, and to war widows and war orphans.</p>
+<p>Includes outlays on:<br />
+Ex-service personnel disability pensions and allowances; and, service pensions.</p>
+<p>Excludes outlays on:<br />
+Pensions from Defence Forces Retirement and Death Benefits scheme classified to GPC 0110; old age pensions, disability benefits, etc.paid through the general social security system to ex-service personnel; and, medical services classified to the appropriate subgroup of major group GPC 05.</p>"""^^rdf:HTML .
+
+:06103
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Permanent disability benefits"@en ;
+    skos:definition """<p>Disability service pensions and other benefits paid to compensate for the permanent loss of income due to full or partial disablement.</p>
+<p>Includes outlays on:<br />
+Payments to chronically ill and disabled persons.</p>
+<p>Excludes outlays on:<br />
+Repatriation and other disablement benefits payable only to ex-service personnel; and, medical services classified to the appropriate subgroup of major group GPC 05.</p>"""^^rdf:HTML .
+
+:06104
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Old age benefits"@en ;
+    skos:definition """<p>Payments of old age pensions.</p>
+<p>Excludes outlays on:<br />
+Pensions payable only to ex-service personnel and their dependants; and, medical services classified to the appropriate subgroup of major group GPC 05.</p>
+<p>Widows, deserted wives, divorcees and orphans benefits</p>
+Pensions and other benefits paid to widows, deserted wives and divorcees that are not made on the grounds of the need to support a dependent child.Pensions and other benefits paid where both parents of a child are deceased or if the whereabouts of a sole surviving parent is unknown.</p>
+<p>Excludes outlays on:<br />
+War widows and war orphans pensions.</p>"""^^rdf:HTML .
+
+:06105
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unemployment benefits"@en ;
+    skos:definition """<p>Unemployment benefits paid to compensate for loss of income due to unemployment.</p>
+<p>Excludes outlays on:<br />
+Government labour exchanges classified to GPC 1339; unemployment relief grants through schemes such as NEAT, CYSS and YESS classified to the purpose which the industry serves or GPC 1339; pensions and other benefits paid to persons who are sick and thereby suffer loss of income due to work incapacity; Special Benefits; and, welfare assistance to the unemployed classified to GPC 0629.</p>"""^^rdf:HTML .
+
+:06106
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Family and child benefits"@en ;
+    skos:definition """<p>Income assistance paid to families irrespective of whether anyone in the household is earning an income.</p>
+<p>Includes payments to:<br />
+Households on a per child basis such as family allowances; and, payments to children with a disability not made to institutions, such as child disability allowances.</p>
+<p>Excludes payments to:<br />
+Dependants of ex-service personnel classified; widows, deserted wives, divorcees and orphans classified; single parent households with dependent children; and, institutions for children with a disability classified to GPC 0623.</p>"""^^rdf:HTML .
+
+:06107
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sole parents benefits"@en ;
+    skos:definition "Income assistance payments to single parent households with dependent children."@en .
+
+:06108
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other social security"@en ;
+    skos:definition """<p>Outlays on administration, provision, support, operation, etc. of other social security affairs, including administration.</p>
+<p>Includes:<br />
+Special Benefits; funeral benefits and compassionate allowances; assistance to individuals or households with inadequate earning capacity, in the nature of concessions, such as telephone rental, postal, transport and rate concessions; and, other income assistance.</p>
+<p>Also includes outlays by:<br />
+Departments, bureaux or program units which serve the social security system including those that disseminate information, prepare budgets and conduct or support research into social security affairs.</p>
+<p>Excludes outlays on:<br />
+Student transport concessions which are considered to be education outlays and are classified to GPC 044.</p>"""@en .
+
+:061
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Welfare services"@en ;
+    skos:definition "Welfare services are defined as assistance delivered to clients, or groups of clients with special needs such as the young, the aged or the disabled."@en ;
+    skos:narrower :0621 , :0622 , :0623 , :0629 .
+
+:0621
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Family and child welfare services"@en ;
+    skos:definition """<p>Child care services and services for children which are developmental in nature.</p>
+<p>Includes outlays on:<br />
+Long-day care centres, family-day care, occasional care/other centres and outside school hours care; and, subsidies for child-care assistance and child-care cash rebate.</p>"""^^rdf:HTML ;
+    skos:narrower :06210 .
+
+:0621
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Child, youth and family welfare services"@en ;
+    skos:definition """<p>Child, youth and family welfare services which are protective (children), developmental (youth), and supportive (families) in nature.</p>
+<p>Includes outlays on:<br />
+<p>Substitute care (short term and permanent); information, advice and referral, particularly in adoption; development and monitoring of family/household management skills; Supported Accommodation Assistance Program for youth (SAAP); protective investigation, protective supervision, statutory guardianship management, protective accommodation; services delivered by residential institutions, such as centres, villages, shelters, hostels, orphanages, youth refuges, juvenile hostels, campus homes and family group homes; marriage and child/juvenile counselling; and, assessment and evaluation of offenders by non-judicial bodies.</p>"""^^rdf:HTML .
+
+:0622
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Welfare services for the aged"@en ;
+    skos:definition """<p>Welfare services for the aged are programs providing services primarily intended for persons aged 65 and over.</p>
+<p>Includes outlays on:<br />
+Respite care; domestic and personal assistance, e.g. services provided through the Home and Community Care Program; services delivered by residential institutions, e.g. hostels, villages, group homes; financial assistance not primarily related to inadequate earning capacity, e.g. concessions for aged persons (transport and material assistance, etc.); and, community centres, e.g. senior citizens centres.</p>
+<p>Excludes outlays on:<br />
+Nursing homes for the aged which are classified to GPC 0530.</p>"""^^rdf:HTML .
+
+:0623
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Welfare services for people with a disability"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Respite care; development care; substitute care; domestic and personal assistance, e.g. services provided through the Home and Community Care Program; services delivered by residential institutions, e.g. hostels, group homes and other services provided under the Commonwealth/State disability agreement; transport other than public transport; supported employment and rehabilitation, e.g. sheltered employment, training centres for people with a disability; community centres, e.g. day care centres for people with a disability; nursing homes for people with a disability; and, financial assistance not primarily related to inadequate earning capacity, e.g. concessions specifically for people with a disability (transport and material assistance, etc.).</p>"""^^rdf:HTML .
+
+:0629
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Welfare services n.e.c."@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Homeless persons' assistance, e.g. Supported Accommodation Assistance Program (SAAP) for people other than youth; information, advice and referral services; prisoners' aid; care of refugees; premarital education; aboriginal welfare services; women's shelters; general casework services which lead to the determination of eligibility for income assistance or welfare services; multi-client services (food and clothing) in times of personal and family emergencies and relief of victims of man-made disasters; departments, bureaux or program units which serve the welfare services system including those that disseminate information, prepare budgets, policy and research; financial assistance (other than for the aged and the disabled) not primarily related to inadequate earning capacity; and, community and management support.</p>"""^^rdf:HTML .
+
+:069
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Social security and welfare n.e.c."@en ;
+    skos:narrower :0690 .
+
+:0690
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Social security and welfare n.e.c."@en ;
+    skos:definition """<p>Outlays on administration, inspection, support, operation, etc.of both social security and welfare affairs and services that cannot be assigned to one of the two preceding groups of major group 06, including administration costs that cannot be classified to either social security or welfare affairs.</p>
+<p>Includes:<br />
+Outlays by departments, bureaux or program units which serve the social security and welfare system including those that disseminate information, prepare budgets and conduct or support research into social security and welfare affairs and services; and, financial compensation to individuals or their families, who as victims of criminal activities suffered injury, illness or death.</p>"""^^rdf:HTML .

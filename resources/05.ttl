@@ -1,0 +1,158 @@
+@prefix : <http://linked.data.gov.au/def/gpc/> .
+@prefix cs: <http://linked.data.gov.au/def/gpc> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+:05
+    a skos:Concept ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Health"@en ;
+    skos:narrower :051 , :052 , :053 , :054 , :055 , :056 , :057 , :059 .
+
+:051
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Acute care institutions"@en ;
+    skos:definition """<p>This subgroup comprises all activities of acute care hospitals, free-standing hospices, alcohol and drug treatment centres, and same-day establishments except activities involving health research and formal health education.</p>
+<p>Acute care hospitals are defined in the National Health Data Dictionary (NHDD) as 'establishments which provide at least minimal medical, surgical or obstetric services for inpatient treatment and/or care, and which provide round-the-clock comprehensive qualified nursing services as well as other necessary professional services. They must be licensed by the State health departments, or controlled by government departments. Most of the patients have acute conditions or temporary ailments and the average stay per admission is relatively short. Hospitals specialising in dental, ophthalmic aids and other specialised medical or surgical care are included in this category'.</p>
+<p>Alcohol and drug treatment centres are free-standing centres for the treatment of drug dependence on an in-patient basis.</p>
+<p>Same day establishments include day centre/hospitals and free-standing day surgery centres.</p>"""^^rdf:HTML ;
+    skos:narrower :0511 , :0512 .
+
+:0511
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Admitted patient services in acute care institutions"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Care in designated psychiatric units in acute care institutions; and, care of Nursing Home Type Patients in acute care institutions (as defined by the Health Insurance Act).</p>"""^^rdf:HTML .
+
+:0512
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Non-admitted patient services in acute care institutions"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Accident and emergency services, outpatient clinics, dental clinics, outreach services, community health services and other services provided by acute care institutions not included in GPC 0511 and GPC 0570.</p>"""^^rdf:HTML .
+
+:052
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mental health institutions"@en ;
+    skos:narrower :0520 .
+
+:0520
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mental health institutions"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Psychiatric hospitals and psycho-geriatric nursing homes.</p>
+<p>The NHDD defines psychiatric hospitals as 'establishments devoted primarily to the treatment and care of in-patients with psychiatric, mental or behavioural disorders'.</p>"""^^rdf:HTML .
+
+:053
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nursing homes for the aged"@en ;
+    skos:narrower :0530 .
+
+:0530
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nursing homes for the aged"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Nursing homes which provide long-term care involving regular basic nursing care primarily for persons aged 65 years and over.</p>
+<p>Some young disabled persons are cared for by these nursing homes, but the focus of the nursing home is care for older persons. Some of these institutions are located with acute care institutions.</p>
+<p>Excludes outlays on:<br />
+Hostels for the aged classified to GPC 0622; nursing homes for the young disabled classified to GPC 0623; and, psycho-geriatric nursing homes classified to GPC 0520.</p>"""^^rdf:HTML .
+
+:054
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Community health services"@en ;
+    skos:narrower :0541 , :0542 , :0549 .
+
+:0541
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Community mental health services"@en ;
+    skos:definition """<p>Outlays on specialised mental health programs for the mentally ill treated in a community setting.</p>
+<p>Includes outlays on:<br />
+Mobile acute assessment; treatment and case management services; outreach programs; and, community based residential services.</p>
+<p>Excludes outlays on:<br />
+Treatment by psychiatrists in private practice which are classified to GPC 0549; and, psycho-geriatric nursing homes which are classified to GPC 0520.</p>"""^^rdf:HTML .
+
+:0542
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Patient transport"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Emergency transport to hospital; inter-hospital transport; non-emergency transport to and from treatment centres; and, travel and accommodation assistance.</p>"""^^rdf:HTML .
+
+:0549
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other community health services"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Domiciliary nursing services; well baby clinics; dental health services; home nursing services which are not delivered as part of a welfare oriented program; services provided by community health centres; health services provided to particular community groups such as Aborigines; family planning services; alcohol and drug rehabilitation programs not involving admission; and, other health services provided in a community setting.</p>
+<p>Also includes Commonwealth subsidies for services ofprivate medical and private dental practitioners and optometrists through Medicare and other programs.</p>
+<p>Excludes outlays on:<br />
+<p>Community health services provided by acute care institutions classified to GPC 0511; and, community mental health services classified to GPC 0541.</p>"""^^rdf:HTML .
+
+:055
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Public health services"@en ;
+    skos:narrower :0550 .
+
+:0550
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Public health services"@en ;
+    skos:definition """<p>Outlays on public health services consisting ofpopulation health service programs and preventive health service programs.</p>
+<p>Population health service programs are defined as those programs which aim to protect, promote and/or restore the collective health of whole or specific populations (as distinct from activities directed to the care of individuals).</p>
+<p>Includes outlays on:<br />
+<p>Health promotion campaigns; occupational health and safety programs; food standards regulation; environmental health; nutrition services; communicable disease surveillance and control; and, epidemiology.</p>
+<p>Preventive health service programs are those programs which have the aim of preventing disease.</p>
+<p>Includes outlays on:<br />
+<p>Immunisation programs; breast cancer screening; and, screening for childhood diseases.</p>"""^^rdf:HTML .
+
+:056
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pharmaceuticals, medical aids and appliances"@en ;
+    skos:narrower :0560 .
+
+:0560
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pharmaceuticals, medical aids and appliances"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Pharmaceuticals provided outside of hospitals, aids and appliances used for health purposes and supplied in an ambulatory setting, glasses, hearing aids, wheel chairs, etc.</p>
+<p>Excludes outlays on:<br />
+Prostheses used in operations.</p>"""^^rdf:HTML .
+
+:057
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Health research"@en ;
+    skos:narrower :0570 .
+
+:0570
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Health Research"@en ;
+    skos:definition """<p>Includes outlays on:<br />
+Research into health, medical and health sciences; and, medical instrumentation.</p>"""^^rdf:HTML .
+
+:059
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Health administration n.e.c."@en ;
+    skos:narrower :0590 .
+
+:0590
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Health administration n.e.c."@en ;
+    skos:definition """<p>Outlays on administration, support, operation, etc. of health affairs and services that cannot be assigned to one of the preceding subgroups.</p>
+<p>Includes outlays on:<br />
+Health insurance schemes designed to cover all or part of the costs of health care; the administration of Medicare by the Health Insurance Commission; and, any subsidies for private health insurance.</p>"""^^rdf:HTML .

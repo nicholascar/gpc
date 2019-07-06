@@ -1,0 +1,64 @@
+@prefix : <http://linked.data.gov.au/def/gpc/> .
+@prefix cs: <http://linked.data.gov.au/def/gpc> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+:01
+    a skos:Concept ;
+    skos:prefLabel ""@en ;
+    skos:definition ""@en ;
+    skos:scopeNote ""@en ;
+    skos:narrower ;
+
+
+08	Recreation and culture
+
+081	Recreational facilities and services
+
+0811	National parks and wildlife
+
+Covers outlays on administration, regulation, support, provision, operation, etc. of national parks and wildlife services.
+
+Includes outlays on:
+Aspects of the national estate such as historic houses and sites which are part of national parks and wildlife services.
+
+0819	Recreational facilities and services n.e.c.
+
+Covers outlays on administration, regulation, support, provision, operation, etc. of public halls and civic centres, swimming pools (both indoor and outdoor) and other recreational swimming areas, and other recreational facilities and services.
+
+Includes outlays on:
+Multipurpose halls used for recreation and cultural pursuits; dressing sheds and diving platforms; football and cricket grounds; tennis courts; golf-links; indoor sporting complexes; recreational parks and gardens; playgrounds; barbecue areas; walking and cycling paths; sport fishing and hunting; racing and gaming commissions; lotteries commissions; national, regional or local team representation in sporting events; equipment, coaching, training and other items needed to field a team or player; and, professional teams or individual competitors.
+
+Excludes outlays on:
+National parks and wildlife services classified to GPC 0811; life saving, beach patrols and beach inspection classified toGPC 0390 and, predominantly cultural facilities such as zoological and botanical gardens, and aquariums classified to GPC 0820.
+
+082	Cultural facilities and services
+
+0820	Cultural facilities and services
+
+Outlays on administration, support, provision, operation, etc. of libraries open to the public, facilities and services for the creative and performing arts, museums which store and exhibit objects illustrating antiquities, natural history, etc., art galleries, and other cultural facilities and services.
+
+Includes outlays on:
+Lending and reference libraries and book mobiles; provision of books; library archives; support of library research; theatres, concerts, stage productions and orchestras; support to individual artists, writers, designers, composers and others working in the arts; state museums and war museums; exhibition halls; monuments; historic houses and sites; zoological and botanical gardens; aquariums and arboreta; national, regional and local celebrations; and, organisations engaged in promoting cultural activities.
+
+Excludes outlays on:
+Cultural activities intended for distribution overseas classified to GPC 0190; production of cultural material intended for overseas broadcasting classified to GPC 0830; and, aspects of the national estate, which are part of national parks and wildlife services, classified to GPC 0811.
+
+083	Broadcasting and film production
+
+0830	Broadcasting and film production
+
+Outlays on administration, regulation, support, provision, operation, etc. of broadcasting services and film production.
+
+Includes outlays on:
+Support for the construction or acquisition of facilities for television or radio broadcasting and for the production and presentation of broadcasting material; production of cultural material intended for overseas broadcasting; administering the collection of commercial radio and television licence fees; and, support of film production.
+
+Excludes outlays on:
+Support of cultural activities intended for distribution overseas classified to GPC 0190.
+
+089	Recreation and culture n.e.c.
+
+0890	Recreation and culture n.e.c.
+
+Outlays on administration, support, provision, operation, etc. of recreational and cultural affairs and services that cannot be assigned to one of the preceding subgroups of major group GPC 08.
