@@ -4,48 +4,56 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 
-:01
+:11
     a skos:Concept ;
-    skos:prefLabel ""@en ;
-    skos:definition ""@en ;
-    skos:scopeNote ""@en ;
-    skos:narrower ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Mining and mineral resources other than fuels; manufacturing; and construction"@en ;
+    skos:narrower :111 , :112 , :113 .
 
+:111
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mining and mineral resources, other than fuels"@en ;
+    skos:narrower :1110 .
 
-11	Mining and mineral resources other than fuels; manufacturing; and construction
+:1110
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mining and mineral resources, other than fuels"@en ;
+    skos:definition """<p>Outlays on administration, regulation, inspection, research, support, operation, etc. of activities relating to prospecting, mining and mineral resources development. In addition to metal bearing minerals, these activities cover sand, clay and stone, chemical and fertiliser minerals, salt, gemstones, asbestos and gypsum.</p>
+<p>Includes outlays on:<br />
+Advances and bounties to foster mineral developments and production.</p>
+<p>Excludes outlays on:<br />
+All activities relating to mineral fuels classified to major group GPC 09.</p>"""^^rdf:HTML .
 
-111	Mining and mineral resources, other than fuels
+:112
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Manufacturing"@en ;
+    skos:narrower :1110 .
 
-1110	Mining and mineral resources, other than fuels
+:1120
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Manufacturing"@en ;
+    skos:definition """<p>Outlays on administration, planning, support, regulation, inspection, promotion, operation, etc.of manufacturing activities and research into manufacturing methods, materials and industrial management.</p>
+<p>Includes outlays on:<br />
+<p>Marketing schemes, etc. for processed primary products such as meat, timber, dried fruits and packaged fish; factory inspection; protection of consumers against dangerous products; the book bounty; payments supporting industrial research and development and export marketing; and, maintaining liaison with manufacturers' associations and other organisations interested in manufacturing affairs and services.</p>
+<p>Excludes outlays on:<br />
+Manufacturing relating to the production of fuel and energy, for example, petroleum and gas refineries, coal processing or nuclear fuel industries classified to major group GPC 09.</p>"""^^rdf:HTML .
 
-Outlays on administration, regulation, inspection, research, support, operation, etc. of activities relating to prospecting, mining and mineral resources development. In addition to metal bearing minerals, these activities cover sand, clay and stone, chemical and fertiliser minerals, salt, gemstones, asbestos and gypsum.
+:113
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Construction"@en ;
+    skos:narrower :1110 .
 
-Includes outlays on:
-Advances and bounties to foster mineral developments and production.
-
-Excludes outlays on:
-All activities relating to mineral fuels classified to major group GPC 09.
-
-112	Manufacturing
-
-1120	Manufacturing
-
-Outlays on administration, planning, support, regulation, inspection, promotion, operation, etc.of manufacturing activities and research into manufacturing methods, materials and industrial management.
-
-Includes outlays on:
-Marketing schemes, etc. for processed primary products such as meat, timber, dried fruits and packaged fish; factory inspection; protection of consumers against dangerous products; the book bounty; payments supporting industrial research and development and export marketing; and, maintaining liaison with manufacturers' associations and other organisations interested in manufacturing affairs and services.
-
-Excludes outlays on:
-Manufacturing relating to the production of fuel and energy, for example, petroleum and gas refineries, coal processing or nuclear fuel industries classified to major group GPC 09.
-
-113	Construction
-
-1130	Construction
-
-Outlays on administration, planning, support, regulation, inspection, research, promotion, etc. of the building and construction industry.
-
-Includes outlays on:
-Inspections enforcing building standards; and, research into construction methods, materials and productivity affecting construction.
-
-Excludes outlays on;
-Specific building and construction projects such as dwellings, factories, roads, mines, farm buildings and so forth classified to the appropriate purpose category.
+:1120
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Construction"@en ;
+    skos:definition """<p>Outlays on administration, planning, support, regulation, inspection, research, promotion, etc. of the building and construction industry.</p>
+<p>Includes outlays on:<br />
+Inspections enforcing building standards; and, research into construction methods, materials and productivity affecting construction.</p>
+<p>Excludes outlays on;<br />
+Specific building and construction projects such as dwellings, factories, roads, mines, farm buildings and so forth classified to the appropriate purpose category.</p>"""^^rdf:HTML .

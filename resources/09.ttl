@@ -4,80 +4,101 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 
-:01
+:09
     a skos:Concept ;
-    skos:prefLabel ""@en ;
-    skos:definition ""@en ;
-    skos:scopeNote ""@en ;
-    skos:narrower ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Fuel and energy"@en ;
+    skos:narrower :091 , :092 , :099 .
+
+:091
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fuel affairs and services"@en ;
+    skos:narrower :0911 , :0919 .
+
+:0911
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gas"@en ;
+    skos:definition """<p>Outlays on administration, regulation, planning, support, operation, etc. of gas affairs and services which concern natural gas, liquified petroleum gases and refinery gases.
+<p>Includes outlays on:<br />
+Price control; research; dissemination of information; measures designed to reduce consumption or increase production; and, support in the form of advances, grants or subsidies.</p>
+<p>Excludes outlays on:<br />
+Transportation of gas classified to the appropriate subgroup of GPC 12.</p>"""^^rdf:HTML .
 
 
-9	Fuel and energy
+:0919
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fuel affairs and services n.e.c."@en ;
+    skos:definition """<p>Outlays on administration, regulation, planning, support, operation, etc. of fuel affairs and services other than gas. Other fuel affairs and services include coal, petroleum, nuclear affairs and alternative fuels such as alcohol, wood and wood wastes.</p>
+<p>Includes outlays on:<br />
+Price control; research; dissemination of information; measures designed to reduce consumption or increase production; and, support in the form of advances, grants or subsidies.</p>
+<p>Excludes outlays on:<br />
+Transportation of fuel other than gas classified to the appropriate subgroup of GPC 12.</p>"""^^rdf:HTML ;
+    skos:narrower :09191 , :09192 , :09193 .
 
-091	Fuel affairs and services
+:09191
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coal"@en ;
+    skos:definition "Outlays on administration, regulation, planning, support, operation, etc. of solid mineral fuel affairs and services which concern coal of all grades, lignite and peat irrespective of the method used in their extraction, as well as conversion of these fuels to other forms such as coke or gas." .
 
-0911	Gas
+:09192
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Petroleum"@en ;
+    skos:definition "Outlays on administration, regulation, planning, support, operation, etc. of petroleum affairs and services which concern oil from wells or other sources such as shale." .
 
-Outlays on administration, regulation, planning, support, operation, etc. of gas affairs and services which concern natural gas, liquified petroleum gases and refinery gases.
+:09193
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Nuclear affairs"@en ;
+    skos:definition """<p>Outlays on administration, regulation, planning, support, operation, etc. of nuclear affairs and services which cover extraction as well as processing of fissionable and fertile materials and manufacture of fuel elements.</p>
+<p>Excludes outlays on:<br />
+Radioactive wastes classified to GPC 0739.</p>"""^^rdf:HTML .
 
-Includes outlays on:
-Price control; research; dissemination of information; measures designed to reduce consumption or increase production; and, support in the form of advances, grants or subsidies.
+:092
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Electricity and other energy"@en ;
+    skos:narrower :0921 , :0922 , :0929 .
 
-Excludes outlays on:
-Transportation of gas classified to the appropriate subgroup of GPC 12.
+:0921
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Aboriginal community electricity services"@en ;
+    skos:definition """<p>Outlays on administration, provision, support, operation, etc. of aboriginal community electricity services.</p>
+<p>Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.</p>"""^^rdf:HTML .
 
-0919	Fuel affairs and services n.e.c.
+:0922
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other electricity"@en ;
+    skos:definition """<p>Outlays on administration, regulation, planning, support, operation, etc. of electricity affairs and services which concern conventional sources of electricity such as thermal, nuclear or hydro supplies, and nonconventional sources such as electricity from wind or solar heat.</p>
+<p>Includes outlays on:<br />
+Price control; research, dissemination of information; measures designed to reduce consumption or increase production; support in the form of advances, grants or subsidies; and, support for the construction of dams and other works mainly designed to provide electricity.</p>
+<p>Excludes outlays on:<br />
+Electricity services to aboriginal communities which are classified to GPC 0921.</p>"""^^rdf:HTML .
 
-Outlays on administration, regulation, planning, support, operation, etc. of fuel affairs and services other than gas. Other fuel affairs and services include coal, petroleum, nuclear affairs and alternative fuels such as alcohol, wood and wood wastes.
+:0929
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other energy"@en ;
+    skos:definition """<p>Outlays on administration, regulation, planning, support, operation, etc. of energy affairs and services other than electricity.This mainly concerns the production of heat in the form of steam, hot water or hot air such as solar heat not used for the generation of electricity.</p>
+<p>Includes outlays on:<br />
+Price control; research; dissemination of information; measures designed to reduce consumption or increase production; and, support in the form of advances, grants or subsidies.</p>"""^^rdf:HTML .
 
-Includes outlays on:
-Price control; research; dissemination of information; measures designed to reduce consumption or increase production; and, support in the form of advances, grants or subsidies.
+:099
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fuel and energy n.e.c."@en ;
+    skos:narrower :0990 .
 
-Excludes outlays on:
-Transportation of fuel other than gas classified to the appropriate subgroup of GPC 12.
-
-Coal
-Outlays on administration, regulation, planning, support, operation, etc. of solid mineral fuel affairs and services which concern coal of all grades, lignite and peat irrespective of the method used in their extraction, as well as conversion of these fuels to other forms such as coke or gas.
-
-Petroleum
-Outlays on administration, regulation, planning, support, operation, etc. of petroleum affairs and services which concern oil from wells or other sources such as shale.
-
-Nuclear affairs
-Outlays on administration, regulation, planning, support, operation, etc. of nuclear affairs and services which cover extraction as well as processing of fissionable and fertile materials and manufacture of fuel elements.
-
-Excludes outlays on:
-Radioactive wastes classified to GPC 0739.
-
-092	Electricity and other energy
-
-0921	Aboriginal community electricity services
-
-Outlays on administration, provision, support, operation, etc. of aboriginal community electricity services.
-
-Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.
-
-0922	Other electricity
-
-Outlays on administration, regulation, planning, support, operation, etc. of electricity affairs and services which concern conventional sources of electricity such as thermal, nuclear or hydro supplies, and nonconventional sources such as electricity from wind or solar heat.
-
-Includes outlays on:
-Price control; research, dissemination of information; measures designed to reduce consumption or increase production; support in the form of advances, grants or subsidies; and, support for the construction of dams and other works mainly designed to provide electricity.
-
-Excludes outlays on:
-Electricity services to aboriginal communities which are classified to GPC 0921.
-
-0929	Other energy
-
-Outlays on administration, regulation, planning, support, operation, etc. of energy affairs and services other than electricity.This mainly concerns the production of heat in the form of steam, hot water or hot air such as solar heat not used for the generation of electricity.
-
-Includes outlays on:
-Price control; research; dissemination of information; measures designed to reduce consumption or increase production; and, support in the form of advances, grants or subsidies.
-
-099	Fuel and energy n.e.c.
-
-0990	Fuel and energy n.e.c.
-
-Outlays on administration, regulation, planning, support, operation, etc. of fuel and energy affairs and services that cannot be assigned to one of the two preceding groups of GPC 09.
-
-Includes outlays on:
-Measures designed to reduce consumption or increase production of both fuel and energy, for example, the National Energy Conservation Program.
+:0990
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fuel and energy n.e.c."@en ;
+    skos:definition """<p>Outlays on administration, regulation, planning, support, operation, etc. of fuel and energy affairs and services that cannot be assigned to one of the two preceding groups of GPC 09.</p>
+<p>Includes outlays on:<br />
+Measures designed to reduce consumption or increase production of both fuel and energy, for example, the National Energy Conservation Program.</p>"""^^rdf:HTML .
