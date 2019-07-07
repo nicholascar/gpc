@@ -4,94 +4,110 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 
-:01
+:07
     a skos:Concept ;
-    skos:prefLabel ""@en ;
-    skos:definition ""@en ;
-    skos:scopeNote ""@en ;
-    skos:narrower ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Housing and community amenities"@en ;
+    skos:narrower :071 , :072 , :073, :079 .
 
+:071
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Housing and community development"@en ;
+    skos:narrower :0711 , :0712 , :0719 .
 
-07	Housing and community amenities
+:0711
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Housing"@en ;
+    skos:definition """<p>Outlays on administration, provision, support, operation, etc. of housing affairs and services.</p>
+<p>Includes outlays on:<br />
+Provision of housing for the general public and people with special needs; acquisition of land for dwelling construction; slum clearance; administration of rent controls and eligibility standards for public housing; conditional financial assistance for the construction of homes; rental subsidies and allowances; mortgage financing of homes for ex-service personnel and other low cost mortgage financing for home building or purchase; producing and disseminating information about housing; and, applied research into and experimental development of housing standards and design.</p>
+<p>Excludes outlays on:<br />
+Residential institutions mainly providing living quarters classified to the appropriate sub-group of GPC 062; provision of accommodation to serving members of the defence forces classified to GPC 0200; and, construction methods, materials or standards classified to GPC 1130.</p>"""^^rdf:HTML .
 
-071	Housing and community development
+:0712
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Aboriginal community development"@en ;
+    skos:definition """<p>Outlays on administration, provision, support, operation, etc. of aboriginal community development.</p>
+<p>Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.</p>"""^^rdf:HTML .
 
-0711	Housing
+:0719
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other community development"@en ;
+    skos:definition """<p>Outlays on administration, provision, support, operation, etc. of overall community development mainly concerned with the planning of new or rehabilitated communities with the aim of improving the quality of life.</p>
+<p>Includes outlays on:<br />
+Plans involving housing and industries; facilities for the health, education, culture and recreation of the community; schemes for financing construction; relocating existing populations; administrating zoning laws; regulations on land use; building standards other than standards covering housing; administrating concessions to decentralised industries; research into community development; and, dissemination of information.</p>
+<p>Excludes outlays on:<br />
+Aboriginal community development which is classified to GPC 0712; and, plan implementation, that is, actual construction of housing, industrial buildings, streets, public utilities and cultural facilities classified to the appropriate major group according to functional role.</p>"""^^rdf:HTML .
 
-Outlays on administration, provision, support, operation, etc. of housing affairs and services.
+:072
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Water supply"@en ;
+    skos:narrower :0721 , :0729 .
 
-Includes outlays on:
-Provision of housing for the general public and people with special needs; acquisition of land for dwelling construction; slum clearance; administration of rent controls and eligibility standards for public housing; conditional financial assistance for the construction of homes; rental subsidies and allowances; mortgage financing of homes for ex-service personnel and other low cost mortgage financing for home building or purchase; producing and disseminating information about housing; and, applied research into and experimental development of housing standards and design.
+:0721
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Aboriginal community water supply"@en ;
+    skos:definition """<p>Outlays on administration, regulation, research, support, etc. of aboriginal community water supply.</p>
+<p>Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.</p>"""^^rdf:HTML .
 
-Excludes outlays on:
-Residential institutions mainly providing living quarters classified to the appropriate sub-group of GPC 062; provision of accommodation to serving members of the defence forces classified to GPC 0200; and, construction methods, materials or standards classified to GPC 1130.
+:0729
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other water supply"@en ;
+    skos:definition """<p>Outlays on administration, regulation, research, support, etc. of water supply services other than for aboriginal communities.</p>
+<p>Includes outlays on:<br />
+Assistance for the development, expansion or operation of water supply systems; and, production and dissemination of information and research into the conservation, collection, purification and distribution of water.</p>
+<p>Excludes outlays on:<br />
+Government activities in connection with irrigation systems classified to GPC 1010; and, Aboriginal water supply classified to GPC 0721.</p>"""^^rdf:HTML .
 
-0712	Aboriginal community development
+:073
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sanitation and protection of the environment"@en ;
+    skos:narrower :0731 , :0739 .
 
-Outlays on administration, provision, support, operation, etc. of aboriginal community development.
+:0731
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Aboriginal community sanitation services"@en ;
+    skos:definition """<p>Covers outlays on administration, regulation, support, etc. of aboriginal community sanitation services.</p>
+<p>Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves,town camps and transit camps.</p>"""^^rdf:HTML .
 
-Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.
+:0739
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other sanitation and protection of the environment"@en ;
+    skos:definition """<p>Covers outlays on administration, regulation, support, etc. of household garbage collection and disposal services, other sanitary services, sewerage collection, sewerage treatment and disposal operations, urban stormwater drainage services, pollution abatement and control, and other environmental protection programs.</p>
+<p>Includes outlays on:<br />
+Development, expansion or operation of household garbage systems and other systems; trade and industrial waste disposal; cleaning of streets, gutters, foreshores and recreation areas; special rubbish clean-ups and anti-litter enforcement; disposal of radioactive wastes; deep mains town systems; effluent drainage systems; septic tank cleaning and inspection; nightsoil disposal ('sanitary service'); urban drainage systems and stormwater drains, including the linking or lining of creeks and the provision of open or deep draining systems; development and monitoring of standards covering pollution and air quality such as outlays on construction, development and operation of monitoring stations (e.g. stations to monitor noise levels near airports), and support of the development and use of anti-pollution devices; environmental protection programs such as the control and prevention of erosion of beaches and foreshores; flood mitigation in urban areas; research and experimental development into problems of pollution abatement and control and other environmental protection programs; and, production and dissemination of information.</p>
+<p>Excludes outlays on:<br />
+Aboriginal community sanitation services classified to GPC 0731; construction of drains associated with roadworks classified to GPC 1214; rural flood mitigation and agricultural drainage classified to GPC 1010; and, pollution abatement and control and other environmental protection programs classified to the purpose which the industry serves.</p>"""^^rdf:HTML .
 
-0719	Other community development
+:079
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other community amenities"@en ;
+    skos:narrower :0791 , :0799 .
 
-Outlays on administration, provision, support, operation, etc. of overall community development mainly concerned with the planning of new or rehabilitated communities with the aim of improving the quality of life.
+:0791
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Aboriginal community amenities"@en ;
+    skos:definition """<p>Covers outlays on administration, provision, operation, etc. of aboriginal community amenities.</p>
+<p>Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.</p>"""^^rdf:HTML .
 
-Includes outlays on:
-Plans involving housing and industries; facilities for the health, education, culture and recreation of the community; schemes for financing construction; relocating existing populations; administrating zoning laws; regulations on land use; building standards other than standards covering housing; administrating concessions to decentralised industries; research into community development; and, dissemination of information.
-
-Excludes outlays on:
-Aboriginal community development which is classified to GPC 0712; and, plan implementation, that is, actual construction of housing, industrial buildings, streets, public utilities and cultural facilities classified to the appropriate major group according to functional role.
-
-072	Water supply
-
-0721	Aboriginal community water supply
-
-Outlays on administration, regulation, research, support, etc. of aboriginal community water supply.
-
-Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.
-
-0729	Other water supply
-
-Outlays on administration, regulation, research, support, etc. of water supply services other than for aboriginal communities.
-
-Includes outlays on:
-Assistance for the development, expansion or operation of water supply systems; and, production and dissemination of information and research into the conservation, collection, purification and distribution of water.
-
-Excludes outlays on:
-Government activities in connection with irrigation systems classified to GPC 1010; and, Aboriginal water supply classified to GPC 0721.
-
-073	Sanitation and protection of the environment
-
-0731	Aboriginal community sanitation services
-
-Covers outlays on administration, regulation, support, etc. of aboriginal community sanitation services.
-
-Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves,town camps and transit camps.
-
-0739	Other sanitation and protection of the environment
-
-Covers outlays on administration, regulation, support, etc. of household garbage collection and disposal services, other sanitary services, sewerage collection, sewerage treatment and disposal operations, urban stormwater drainage services, pollution abatement and control, and other environmental protection programs.
-
-Includes outlays on:
-Development, expansion or operation of household garbage systems and other systems; trade and industrial waste disposal; cleaning of streets, gutters, foreshores and recreation areas; special rubbish clean-ups and anti-litter enforcement; disposal of radioactive wastes; deep mains town systems; effluent drainage systems; septic tank cleaning and inspection; nightsoil disposal ('sanitary service'); urban drainage systems and stormwater drains, including the linking or lining of creeks and the provision of open or deep draining systems; development and monitoring of standards covering pollution and air quality such as outlays on construction, development and operation of monitoring stations (e.g. stations to monitor noise levels near airports), and support of the development and use of anti-pollution devices; environmental protection programs such as the control and prevention of erosion of beaches and foreshores; flood mitigation in urban areas; research and experimental development into problems of pollution abatement and control and other environmental protection programs; and, production and dissemination of information.
-
-Excludes outlays on:
-Aboriginal community sanitation services classified to GPC 0731; construction of drains associated with roadworks classified to GPC 1214; rural flood mitigation and agricultural drainage classified to GPC 1010; and, pollution abatement and control and other environmental protection programs classified to the purpose which the industry serves.
-
-079	Other community amenities
-
-0791	Aboriginal community amenities
-
-Covers outlays on administration, provision, operation, etc. of aboriginal community amenities.
-
-Aboriginal communities are those which have a predominantly indigenous population and where tribal ways and traditional roles are maintained. They are usually remote from major service centres and include communities on Aboriginal land and within pastoral leases, reserves, town camps and transit camps.
-
-0799	Other community amenities
-
-Covers outlays on administration, provision, operation, etc. of street lighting and other community amenities that cannot be assigned to one of the preceding subgroups of major group GPC 07.
-
-Includes outlays on:
-Design, installation, operation, maintenance, upgrading and other aspects of street lighting, such as developing and monitoring street lighting standards; public conveniences; pedestrian shopping malls; drinking fountains; bus shelters; and, cemeteries and crematoria.
-
-Excludes outlays on:
-Aboriginal community amenities classified to GPC 0791; and, public conveniences at recreational areas classified to GPC 0819.
+:0799
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other community amenities"@en ;
+    skos:definition """<p>Covers outlays on administration, provision, operation, etc. of street lighting and other community amenities that cannot be assigned to one of the preceding subgroups of major group GPC 07.</p>
+<p>Includes outlays on:<br />
+Design, installation, operation, maintenance, upgrading and other aspects of street lighting, such as developing and monitoring street lighting standards; public conveniences; pedestrian shopping malls; drinking fountains; bus shelters; and, cemeteries and crematoria.</p>
+<p>Excludes outlays on:<br />
+Aboriginal community amenities classified to GPC 0791; and, public conveniences at recreational areas classified to GPC 0819.</p>"""^^rdf:HTML .
