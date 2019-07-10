@@ -4,90 +4,116 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 
-:01
+
+:13
     a skos:Concept ;
-    skos:prefLabel ""@en ;
-    skos:definition ""@en ;
-    skos:scopeNote ""@en ;
-    skos:narrower ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Other economic affairs"@en ;
+    skos:narrower :131 , :132 , :133 , :139 .
 
+:131
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Storage, saleyards and markets"@en ;
+    skos:narrower :1310 , :1311.
 
-13	Other economic affairs
+:1310
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Storage, saleyards and markets"@en ;
+    skos:definition """<p>Outlays on administration, planning, licensing, support, regulation, inspection, construction, maintenance, operation, etc. of storage and warehousing.</p>
+<p>Includes outlays on:<br />
+Grants or other assistance for the provision or operation of storage facilities, such as grain elevators, bulk sugar terminals, wool stores, and government bonded warehouses; and, development and monitoring of storage and warehousing regulations.</p>
+<p>Excludes outlays on:<br />
+Development and monitoring of regulations concerning sales practices, labelling of packaged food and other goods intended for household consumption classified to GPC 1390.</p>"""^^rdf:HTML .
 
-131	Storage, saleyards and markets
-
-1310	Storage, saleyards and markets
-
-Outlays on administration, planning, licensing, support, regulation, inspection, construction, maintenance, operation, etc. of storage and warehousing.
-
-Includes outlays on:
-Grants or other assistance for the provision or operation of storage facilities, such as grain elevators, bulk sugar terminals, wool stores, and government bonded warehouses; and, development and monitoring of storage and warehousing regulations.
-
-Excludes outlays on:
-Development and monitoring of regulations concerning sales practices, labelling of packaged food and other goods intended for household consumption classified to GPC 1390.
-
-Outlays on administration, planning, licensing, support, regulation, inspection, construction, maintenance, operation, etc. of yards and markets where sales of rural produce, livestock and other goods are conducted.
-
-Includes outlays on:
+:1311
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rural storage, saleyards and markets"@en ;
+    skos:definition """<p>Outlays on administration, planning, licensing, support, regulation, inspection, construction, maintenance, operation, etc. of yards and markets where sales of rural produce, livestock and other goods are conducted.</p>
+<p>Includes outlays on:<br />
 Fishmarkets, produce markets and saleyards.
+<p>Excludes outlays on:<br />
+Development and monitoring of regulations concerning sales practices, labelling of packaged food and other goods intended for household consumption classified to GPC 1390.</p>"""^^rdf:HTML .
 
-Excludes outlays on:
-Development and monitoring of regulations concerning sales practices, labelling of packaged food and other goods intended for household consumption classified to GPC 1390.
+:132
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tourism and area promotion"@en ;
+    skos:narrower :1320 .
 
-132	Tourism and area promotion
+:1320
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tourism and area promotion"@en ;
+    skos:definition """<p>Outlays on administration, regulation, planning, development, research, support, operation, etc. of tourism and area promotion to attract tourists.Also covers local government promotion to attract development.</p>
+<p>Includes outlays on:<br />
+Tourist bureaux both in Australia and overseas, information offices, caravan parks and camping areas; and, liaison activities with transportation establishments, the hotel and restaurant industry and other industries benefiting from the presence of tourists.</p>
+<p>Excludes outlays on:<br />
+National parks and wildlife services classified to GPC 0811.</p>"""^^rdf:HTML .
 
-1320	Tourism and area promotion
+:133
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Labour and employment affairs"@en ;
+    skos:narrower :1331 , :1339 .
 
-Outlays on administration, regulation, planning, development, research, support, operation, etc. of tourism and area promotion to attract tourists.Also covers local government promotion to attract development.
+:1331
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Vocational training"@en ;
+    skos:definition """<p>Outlays on administration, support, regulation, research, etc. oftraining programs such as apprenticeship schemes designed to facilitate entry into the workforce of people currently not employed or in need of retraining.</p>
+<p>Excludes outlays on:<br />
+Training programs provided by TAFE institutions classified to GPC 0422.</p>"""^^rdf:HTML .
 
-Includes outlays on:
-Tourist bureaux both in Australia and overseas, information offices, caravan parks and camping areas; and, liaison activities with transportation establishments, the hotel and restaurant industry and other industries benefiting from the presence of tourists.
+:1339
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other labour and employment affairs"@en ;
+    skos:definition """<p>Outlays on administration, support, regulation, research, etc. of other labour and employment affairs.</p>
+<p>Includes outlays on:<br />
+Regulation of working conditions; conciliation and arbitration; operation of employment offices; schemes to promote employment, such as unemployment relief grants through NEAT, CYSS, YESS and other similar schemes that cannot be allocated to specific industries; anti-discrimination programs; and, other programs in which general labour affairs is the chief component.</p>
+<p>Excludes outlays on:<br />
+Vocational training classified to GPC 1331; and, labour and employment affairs of a particular industry classified to the purpose which the industry serves.</p>"""^^rdf:HTML .
 
-Excludes outlays on:
-National parks and wildlife services classified to GPC 0811.
+:139
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other economic affairs n.e.c."@en ;
+    skos:narrower :1390 .
 
-133	Labour and employment affairs
+:1390
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other economic affairs n.e.c."@en ;
+    skos:definition """<p>Outlays on administration, regulation, promotion, research, operation, etc. of distributive trades.</p>
+<p>Includes outlays on:<br />
+Consumer interest and protection affairs; licensing, sales practices, labelling of packaged food and other goods intended for household consumption; regulation of weights and measures, including metric conversion; price control and rationing schemes operating through retailers or wholesalers; wholesale or retail shop inspection; and, all services relating to distributive trade affairs and services n.e.c.</p>
+<p>Excludes outlays on:<br />
+Affairs related to storage and warehousing classified to GPC 1310; and, price control and rationing schemes which can be identified with a specific industry sub-group (e.g. petroleum and gas classified to GPC 091).</p>"""^^rdf:HTML ;
+    skos:narrower :13901 , :13902 , :13903.
 
-1331	Vocational training
+:13901
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hotel Industry"@en ;
+    skos:definition """<p>Outlays relating to the hotel industry.</p>
+<p>Includes outlays on:<br />
+Licensing, liquor control commissions, and all hotel and restaurant affairs n.e.c.</p>"""^^rdf:HTML .
 
-Outlays on administration, support, regulation, research, etc. oftraining programs such as apprenticeship schemes designed to facilitate entry into the workforce of people currently not employed or in need of retraining.
+:13902
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "General economic and commercial services"@en ;
+    skos:definition """<p>Outlays on administration, regulation, promotion, support, research, operation, etc. of general economic and commercial services.</p>
+<p>Includes outlays on:<br />
+Economic and commercial matters which cannot be allocated to a functional sub-group such as general regulation of monopolies and other restraints on trade and market entry and foreign commercial affairs; weather bureaux; patent offices; and, survey institutions.</p>
+<p>Excludes outlays on:<br />
+Economic and commercial services classified to a particular industry.</p>"""^^rdf:HTML .
 
-Excludes outlays on:
-Training programs provided by TAFE institutions classified to GPC 0422.
-
-1339	Other labour and employment affairs
-
-Outlays on administration, support, regulation, research, etc. of other labour and employment affairs.
-
-Includes outlays on:
-Regulation of working conditions; conciliation and arbitration; operation of employment offices; schemes to promote employment, such as unemployment relief grants through NEAT, CYSS, YESS and other similar schemes that cannot be allocated to specific industries; anti-discrimination programs; and, other programs in which general labour affairs is the chief component.
-
-Excludes outlays on:
-Vocational training classified to GPC 1331; and, labour and employment affairs of a particular industry classified to the purpose which the industry serves.
-
-139	Other economic affairs n.e.c.
-
-1390	Other economic affairs n.e.c.
-
-Outlays on administration, regulation, promotion, research, operation, etc. of distributive trades.
-
-Includes outlays on:
-Consumer interest and protection affairs; licensing, sales practices, labelling of packaged food and other goods intended for household consumption; regulation of weights and measures, including metric conversion; price control and rationing schemes operating through retailers or wholesalers; wholesale or retail shop inspection; and, all services relating to distributive trade affairs and services n.e.c.
-
-Excludes outlays on:
-Affairs related to storage and warehousing classified to GPC 1310; and, price control and rationing schemes which can be identified with a specific industry sub-group (e.g. petroleum and gas classified to GPC 091).
-
-Outlays relating to the hotel industry.
-
-Includes outlays on:
-Licensing, liquor control commissions, and all hotel and restaurant affairs n.e.c.
-
-Outlays on administration, regulation, promotion, support, research, operation, etc. of general economic and commercial services.
-
-Includes outlays on:
-Economic and commercial matters which cannot be allocated to a functional sub-group such as general regulation of monopolies and other restraints on trade and market entry and foreign commercial affairs; weather bureaux; patent offices; and, survey institutions.
-
-Excludes outlays on:
-Economic and commercial services classified to a particular industry.
-
-Outlays relating to other economic affairs and services n.e.c.
+:13903
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other economic affairs and services n.e.c."@en ;
+    skos:definition "Outlays relating to other economic affairs and services n.e.c." .

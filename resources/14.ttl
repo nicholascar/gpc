@@ -4,47 +4,63 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 
-:01
+:14
     a skos:Concept ;
-    skos:prefLabel ""@en ;
-    skos:definition ""@en ;
-    skos:scopeNote ""@en ;
-    skos:narrower ;
+    skos:topConceptOf cs: ;
+    skos:prefLabel "Other purposes"@en ;
+    skos:narrower :141 , :142 , :143 , :149 .
 
+:141
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Public debt transactions"@en ;
+    skos:narrower :1410 .
 
-14	Other purposes
+:1410
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Public debt transactions"@en ;
+    skos:definition """<p>Outlays on underwriting and floating of government loans and interest payments, including interest on government securities or under special credit arrangements with other countries.</p>
+<p>Excludes outlays on:<br />
+Administrative costs of public debt management classified to GPC 0190.</p>"""^^rdf:HTML .
 
-141	Public debt transactions
+:142
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "General purpose inter-government transactions"@en ;
+    skos:narrower :1420 .
 
-1410	Public debt transactions
+:1420
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "General purpose inter-government transactions"@en ;
+    skos:definition "Grants, advances or other inter-government transactions that cannot be allocated to purpose." .
 
-Outlays on underwriting and floating of government loans and interest payments, including interest on government securities or under special credit arrangements with other countries.
+:143
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Natural disaster relief"@en ;
+    skos:narrower :1430 .
 
-Excludes outlays on:
-Administrative costs of public debt management classified to GPC 0190.
+:1430
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Natural disaster relief"@en ;
+    skos:definition """<p>Outlays on administration, planning, support, provision, etc.of programs concerned with the immediate relief of victims of drought, fires, floods, cyclones and other natural disasters, and with the initial restoration of community services and facilities.</p>
+<p>Includes outlays on:<br />
+Food, materials, equipment, etc. used in connection with natural disasters.</p>
+<p>Excludes outlays on:<br />
+Maintenance of state emergency services, such as through local government contributions, classified to GPC 0390; state emergency service operations that cannot be allocated to natural disaster relief classified to GPC 0390 or GPC 0629; relief of victims of man-made disasters classified to GPC 0629; reconstruction activities following man-made disasters classified to purpose; and, long term reconstruction and relief activities following natural disasters classified to purpose.</p>"""^^rdf:HTML .
 
-142	General purpose inter-government transactions
+:149
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other purposes n.e.c."@en ;
+    skos:narrower :1430 .
 
-1420	General purpose inter-government transactions
-
-Grants, advances or other inter-government transactions that cannot be allocated to purpose.
-
-143	Natural disaster relief
-
-1430	Natural disaster relief
-
-Outlays on administration, planning, support, provision, etc.of programs concerned with the immediate relief of victims of drought, fires, floods, cyclones and other natural disasters, and with the initial restoration of community services and facilities.
-
-Includes outlays on:
-Food, materials, equipment, etc. used in connection with natural disasters.
-
-Excludes outlays on:
-Maintenance of state emergency services, such as through local government contributions, classified to GPC 0390; state emergency service operations that cannot be allocated to natural disaster relief classified to GPC 0390 or GPC 0629; relief of victims of man-made disasters classified to GPC 0629; reconstruction activities following man-made disasters classified to purpose; and, long term reconstruction and relief activities following natural disasters classified to purpose.
-
-149	Other purposes n.e.c.
-
-1490	Other purposes n.e.c.
-
-Outlays that cannot be assigned to one of the major groups GPC 01 to GPC 13 and the preceding sub-group of GPC 14.
-
-Includes transactions relating to plant and equipment which cannot be classified to specific purposes and residual items (such as the cost of works on private land, purchases of land and buildings, the rent of premises, works depots and engineering and employment overheads) that cannot be classified to purpose.
+:1490
+    a skos:Concept ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Other purposes n.e.c."@en ;
+    skos:definition """<p>Outlays that cannot be assigned to one of the major groups GPC 01 to GPC 13 and the preceding sub-group of GPC 14.</p>
+<p>Includes transactions relating to plant and equipment which cannot be classified to specific purposes and residual items (such as the cost of works on private land, purchases of land and buildings, the rent of premises, works depots and engineering and employment overheads) that cannot be classified to purpose.</p>"""^^rdf:HTML .
