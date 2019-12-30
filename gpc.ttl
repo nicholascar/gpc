@@ -11,7 +11,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@base <http://linked.data.gov.au/def/gpc> .
+@base <http://linked.data.gov.au/def/gpc/> .
 
 <http://linked.data.gov.au/def/gpc>
   a skos:ConceptScheme ;
