@@ -16,23 +16,11 @@
 <http://linked.data.gov.au/def/gpc>
   a skos:ConceptScheme ;
   dc:source "This vocabulary's content is taken directly from the ABS' publication 5514.0.55.001, Government Purpose Classification" ;
-  dct:contributor [
-      sdo:email <mailto:nicholas.car@surroundaustralia.com> ;
-      sdo:identifier <http://orcid.org/0000-0002-8742-7730> ;
-      sdo:memberOf [
-          a sdo:Organization ;
-          sdo:url <https://surroundaustralia.com> ;
-          sdo:name "SURROUND Australia Pty Ltd" ;
-          sdo:taxID "93 111 971 316" ;
-        ] ;
-      sdo:name "Nicholas J. Car" ;
-    ] ;
+  dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
   dct:created "2019-07-06"^^xsd:date ;
-  dct:modified "2019-07-11"^^xsd:date ;
-  dct:publisher [
-      sdo:identifier <http://catalogue.linked.data.gov.au/org/abs> ;
-      sdo:name "Australian Bureau of Statistics" ;
-    ] ;
+  dct:creator <http://linked.data.gov.au/dataset/agor/O-000928> ;
+  dct:modified "2019-12-30"^^xsd:date ;
+  dct:publisher <http://linked.data.gov.au/dataset/agor/O-000928> ;
   dct:description "This is a SKOS representation of the Australian Bureau of Statistics (ABS)'s Government Purpose Classification (GPC) for use in the collection, analysis and dissemination of local government finance statistics in Australia.'" ;
   rdfs:label "Government Purpose Classification"@en ;
   rdfs:seeAlso <https://www.abs.gov.au/AUSSTATS/abs@.nsf/Latestproducts/5514.0.55.001Appendix92005> ;
@@ -60,6 +48,22 @@
   skos:hasTopConcept <13> ;
   skos:hasTopConcept <14> ;
   skos:hasTopConcept <1490> ;
+.
+<http://linked.data.gov.au/dataset/agor/O-000928>
+  a sdo:Organization ;
+  sdo:name "Australian Bureau of Statistics" ;
+  sdo:url <http://linked.data.gov.au/dataset/agor/O-000928> ;
+.
+<http://orcid.org/0000-0002-8742-7730>
+  a owl:NamedIndividual ;
+  a sdo:Person ;
+  sdo:email "nicholas.car@surroundaustralia.com" ;
+  sdo:identifier <http://orcid.org/0000-0002-8742-7730> ;
+  sdo:memberOf [
+      sdo:url <https://surroundaustralia.com> ;
+      sdo:name "SURROUND Australia Pty Ltd" ;
+    ] ;
+  sdo:name "Nicholas J. Car" ;
 .
 <01>
   a skos:Concept ;
